@@ -1,6 +1,8 @@
 # Amazon-Reviews-using-Sentiment-Analysis
 Applying sentiment analysis from Amazon's product reviews
 
+**If you are looking to skim over the project without going into too much detail, you can easily access it through [_here_](https://nbviewer.jupyter.org/github/mick-zhang/Amazon-Reviews-using-Sentiment-Analysis/blob/master/Amazon%20Project%20Github.ipynb).**
+
 ![Amazon](https://www.illfixitwireless.com/wp-content/uploads/2017/11/amazon_logo_rgb-72-1030x377.jpg)
 
 Product reviews are becoming more important with the evolution of online shopping from traditional brick and mortar retail stores. Consumers are now posting reviews directly on the product page in real time. With vast amount of consumer reviews, this creates an opportunity to see how the market reacts to a specific product.
