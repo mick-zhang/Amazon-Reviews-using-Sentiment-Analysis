@@ -1,7 +1,7 @@
 # Amazon-Reviews-using-Sentiment-Analysis
 Applying sentiment analysis on Amazon's product reviews
 
-**If you are looking to skim over the project without going into too much detail, you can easily access it through [_here_](https://nbviewer.jupyter.org/github/mick-zhang/Amazon-Reviews-using-Sentiment-Analysis/blob/master/Amazon%20Project%20Github.ipynb).**
+**If you are looking to skim over the project without going into too much detail, you can easily access it through [_here_](https://nbviewer.jupyter.org/github/mick-zhang/Amazon-Reviews-using-Sentiment-Analysis/blob/master/Amazon%20Project%20Github.ipynb?flush_cache=true).**
 
 ![Amazon](https://www.illfixitwireless.com/wp-content/uploads/2017/11/amazon_logo_rgb-72-1030x377.jpg)
 
