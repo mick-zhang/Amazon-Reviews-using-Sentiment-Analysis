@@ -11,7 +11,7 @@
 # - **Also: can we associate positive and negative words/sentiments for each product in Amazon's Catalog**
 # - By using Sentiment analysis, can we predict scores for reviews based on certain words
 # 
-# The dataset are based on Amazon branded/Amazon manufactured products only, and Customer satisfaction with Amazon products seem to be the main focus here.
+# This dataset is based on Amazon branded/Amazon manufactured products only, and Customer satisfaction with Amazon products seem to be the main focus here.
 # 
 # Potential suggestion for product reviews:
 # <br>Product X is highly rated on the market, it seems most people like its lightweight sleek design and fast speeds. Most products that were associated with negative reviews seemed to indicate that they were too heavy and they couldn't fit them in the bags. We suggest that next gen models for e-readers are lightweight and portable, based on this data we've looked at.
