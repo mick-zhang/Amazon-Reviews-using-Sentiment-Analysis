@@ -101,7 +101,7 @@ plt.show()
 # - reviews.numHelpful: Outliers in this case are valuable, so we may want to weight reviews that had more than 50+ people who find them helpful
 # - reviews.rating: Majority of examples were rated highly (looking at rating distribution). There is twice amount of 5 star ratings than the others ratings combined
 
-# # Split into Train/Test
+# # 3 Split into Train/Test
 
 # - Before we explore the dataset we're going to split it into training set and test sets
 # - Our goal is to eventually train a sentiment analysis classifier
