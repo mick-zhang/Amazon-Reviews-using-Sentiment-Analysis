@@ -127,7 +127,7 @@ for train_index, test_index in split.split(dataAfter, dataAfter["reviews.rating"
     strat_test = dataAfter.reindex(test_index)
 
 
-# **Checking if train/test sets were stratified proportionately in comparison to raw data**
+# **Check to see if train/test sets were stratified proportionately in comparison to raw data.**
 
 # In[11]:
 
@@ -198,7 +198,7 @@ reviews.info()
 reviews.groupby("asins")["name"].unique()
 
 
-# NOTE: there are actually 34 ASINs with one of the product having 2 ASINs
+# <u>Note</u>: there are actually 34 ASINs with one of the product having 2 ASINs
 
 # In[19]:
 
@@ -232,7 +232,7 @@ plt.show()
 # - We also see that the ASINs have a "right tailed" distribution which can also suggest that certain products have higher sales which can correlate to the higher ASINs frequencies in the reviews
 # - We also took the log of the ASINs to normalize the data, in order display an in-depth picture of each ASINs, and we see that the distribution still follows a "right tailed" distribution
 # 
-# **This answers the first question that certain ASINs (products) have better sales, while other ASINs have lower sale, and in turn dictates which products should be kept or dropped**
+# **This answers the first question that certain ASINs (products) have better sales, while other ASINs have lower sale, and in turn dictates which products should be kept or dropped.**
 
 # In[22]:
 
@@ -262,7 +262,7 @@ plt.show()
 # - 2b) On the other hand, due to their lower frequencies for ASINs with lower frequencies, we suggest that this is a result of lower quality products
 # - 2c) Furthermore, the last 4 ASINs have no variance due to their significantly lower frequencies, and although the review ratings are a perfect 5.0, but we should not consider the significance of these review ratings due to lower frequency as explained in 2a)
 # 
-# **note that point-plot graph automatically takes the average of the review.rating data**
+# **<u>Note</u> that point-plot graph automatically takes the average of the review.rating data.**
 
 # ## 4.3 reviews.doRecommend / ASINs
 
@@ -281,7 +281,7 @@ plt.show()
 # - From this analysis, we can see that the first 19 ASINs show that consumers recommend the product, which is consistent with the "reviews.rating / ASINs" analysis above, where the first 19 ASINs have good ratings between 4.0 to 5.0
 # - The remaining ASINs have fluctuating results due to lower sample size, which should not be considered
 # 
-# **Note: reviews.text will be analyzed in Sentiment Analysis**
+# **<u>Note</u>: reviews.text will be analyzed in Sentiment Analysis.**
 
 # # 5 Correlations
 
@@ -367,7 +367,7 @@ X_test_targetSentiment = strat_test["Sentiment"]
 print(len(X_train), len(X_test))
 
 
-# 27,701 training samples and 6926 testing samples
+# 27,701 training samples and 6926 testing samples.
 
 # ## 6.2 Extract Features
 
