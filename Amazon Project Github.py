@@ -374,8 +374,9 @@ print(len(X_train), len(X_test))
 # Here we will turn content into numerical feature vectors using the **Bag of Words** strategy:
 # - Assign fixed integer id to each word occurrence (integer indices to word occurrence dictionary)
 # - X[i,j] where i is the integer indices, j is the word occurrence, and X is an array of words (our training set)
-# 
 # <br>
+# <br>
+# 
 # In order to implement the **Bag of Words** strategy, we will use SciKit-Learn's **CountVectorizer** to performs the following:
 # - Text preprocessing:
 #     - Tokenization (breaking sentences into words)
